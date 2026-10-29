@@ -12,3 +12,6 @@ Open `index.html` in a browser. An internet connection is recommended for CDN-ho
 
 ## Deploy with GitHub Pages
 In repository Settings → Pages, choose **Deploy from a branch**, select `main` and `/(root)`, then save.
+
+
+Deployment workflow: `.github/workflows/pages.yml` deploys the site to GitHub Pages on pushes to `main`.
